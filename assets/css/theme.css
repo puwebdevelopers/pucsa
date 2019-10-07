@@ -6878,7 +6878,7 @@ button.close {
   color: #fa6e4f;
 }
 #index__page .section__title {
-  font-size: 68px;
+  font-size: 48px;
   letter-spacing: 0.2em;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
@@ -6887,7 +6887,7 @@ button.close {
 }
 @media (max-width: 991px) {
   #index__page .section__title {
-    font-size: 56px;
+    font-size: 46px;
   }
 }
 @media (max-width: 767px) {
@@ -7186,7 +7186,7 @@ button.close {
   color: #2d4052;
 }
 #index__page .section__courses {
-  padding: 100px 0;
+  padding: 60px 0;
   background: url(../img/courses_bg.jpg) no-repeat center center / cover;
   text-align: center;
   position: relative;
@@ -7241,6 +7241,10 @@ button.close {
   border-radius: 50%;
   line-height: 100px;
 }
+#index__page .section__courses .courses_item__wrapper .courses__item .card__top .courses__icon img{
+  align-items: center;
+  margin-top: -20px;
+}
 #index__page .section__courses .courses_item__wrapper .courses__item .card__top .courses__icon > i {
   color: #ffffff;
 }
@@ -7248,7 +7252,7 @@ button.close {
   background-color: #fa6e4f;
 }
 #index__page .section__courses .courses_item__wrapper .courses__item .card__top .courses_icon-2 {
-  background-color: #2d4052;
+  background-color: #243342;
 }
 #index__page .section__courses .courses_item__wrapper .courses__item .card__top .courses_icon-3 {
   background-color: #5a8bac;
@@ -7308,6 +7312,10 @@ button.close {
 }
 #index__page .section__courses .courses_item__wrapper .courses__item .card__back .card_back__wrapper .course__info > li > span {
   color: #fa6e4f;
+  padding-left: 15px;
+}
+#index__page .section__courses .courses_item__wrapper .courses__item .card__back .card_back__wrapper a {
+  margin-top: 25px;
 }
 #index__page .section__courses .courses_item__wrapper:hover .courses__item {
   -webkit-transform: rotateY(180deg);

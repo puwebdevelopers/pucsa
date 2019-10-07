@@ -49,6 +49,7 @@ var alert = (function() {
         // Append new alert
         $("body").append(newAlert);
 
+
         // Remove new alert
         setTimeout(function() {
             newAlert.alert("close");
@@ -450,7 +451,7 @@ var countdown = (function() {
 
 	// Variables
 	var clock = $('#clock');
-	var toDate = '2018/10/09';
+	var toDate = '2019/10/09';
 
 	// Methods
 	function init() {
