@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="assets/ico/logo16.png">
     <meta name="theme-color" content="#283848">
     <meta charset="UTF-8">
     <!--  -->
@@ -64,8 +64,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- Logo -->
-                <a class="navbar-brand" href="index.html">
-                    PUCSA<span></span>
+                <a class="navbar-brand pt-0" href="index.html" style="display: inline-block!important;">
+                    <b style="display: inline-block!important; margin-top: -25px;"><img src="assets/ico/h.png" class="m-r-5">PUCSA</b>
                 </a>
             </div> <!-- / .navbar-header -->
             <!-- Links -->
@@ -95,8 +95,8 @@
                     <li><a href="contact.html">Constitution</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#signinModal" data-toggle="modal"><i class="ion-log-in"></i> Sign In</a></li>
-                    <li><a href="#signupModal" data-toggle="modal"><i class="ion-android-person"></i> Sign Up</a></li>
+                    <!-- <li><a href="#signinModal" data-toggle="modal"><i class="ion-log-in"></i> Sign In</a></li> -->
+                    <!-- <li><a href="#signupModal" data-toggle="modal"><i class="ion-android-person"></i> Sign Up</a></li> -->
                     <li class="hidden-xs">
                         <!-- Search toggle -->
                         <a href="#" class="navbar-search__toggle">
@@ -337,7 +337,7 @@
         </div> <!-- / .container -->
     </section> <!-- .section__about -->
     <!-- section courses -->
-    <section class="section__courses">
+    <section class="section__courses" id="section__departments">
 
         <div class="container">
             <div class="row">
@@ -484,7 +484,7 @@
         </div> <!-- / .container -->
     </section> <!-- .section__courses -->
     <!-- section stats -->
-    <section class="section__stats">
+    <section class="section__stats" id="section__stats">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-3">
@@ -505,7 +505,7 @@
                         <div class="stats_item__icon">
                             <i class="ion-ios-bookmarks" aria-hidden="true"></i>
                         </div>
-                        <div class="stats_item__nbr" data-from="0" data-to="5" data-speed="1000" data-refresh-interval="1">
+                        <div class="stats_item__nbr" data-from="0" data-to="6" data-speed="1000" data-refresh-interval="1">
                             0
                         </div>
                         <div class="stats_item__text">
@@ -518,7 +518,7 @@
                         <div class="stats_item__icon">
                             <i class="ion-university" aria-hidden="true"></i>
                         </div>
-                        <div class="stats_item__nbr" data-from="0" data-to="10" data-speed="4000" data-refresh-interval="20">
+                        <div class="stats_item__nbr" data-from="0" data-to="12" data-speed="4000" data-refresh-interval="20">
                             0
                         </div>
                         <div class="stats_item__text">
@@ -543,7 +543,7 @@
         </div> <!-- / .container -->
     </section> <!-- .section__footer -->
     <!-- section teachers -->
-    <section class="section__teachers">
+    <section class="section__teachers" id="section_team">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -568,11 +568,11 @@
                                 George Muriuki
                             </div>
                             <div class="teacher__prof">
-                                Chairman
+                                Chairman / CEO
                             </div>
                         </div> <!-- / .teacher__info -->
                         <div class="teacher__img">
-                            <img src="assets/img/teacher_1.jpg" class="img-responsive" alt="...">
+                            <img src="assets/img/george1.jpg" class="img-responsive" alt="...">
                         </div>
                         <div class="teacher_item__overlay">
                             <p class="overlay__desc">
@@ -592,10 +592,10 @@
                     <div class="teacher__item">
                         <div class="teacher__info">
                             <div class="teacher__name">
-                                Mellisa Doe
+                                Benson Ndambiri
                             </div>
                             <div class="teacher__prof">
-                                Economic / Professor
+                                Assistant Chairman
                             </div>
                         </div> <!-- / .teacher__info -->
                         <div class="teacher__img">
@@ -619,14 +619,14 @@
                     <div class="teacher__item">
                         <div class="teacher__info">
                             <div class="teacher__name">
-                                John Carter
+                                Jeremiah Polo
                             </div>
                             <div class="teacher__prof">
-                                Phisics / Ph.D
+                                Organising Secretary / DSC Lead
                             </div>
                         </div> <!-- / .teacher__info -->
                         <div class="teacher__img">
-                            <img src="assets/img/teacher_3.jpg" class="img-responsive" alt="...">
+                            <img src="assets/img/jeremiah_polo.jpg" class="img-responsive" alt="...">
                         </div>
                         <div class="teacher_item__overlay">
                             <p class="overlay__desc">
@@ -646,14 +646,14 @@
                     <div class="teacher__item">
                         <div class="teacher__info">
                             <div class="teacher__name">
-                                Ellison Johnson
+                                Ivy Joy 
                             </div>
                             <div class="teacher__prof">
-                                History / Assistant professor
+                                Secretary General
                             </div>
                         </div> <!-- / .teacher__info -->
                         <div class="teacher__img">
-                            <img src="assets/img/teacher_4.jpg" class="img-responsive" alt="...">
+                            <img src="assets/img/ivy.png" class="img-responsive" alt="...">
                         </div>
                         <div class="teacher_item__overlay">
                             <p class="overlay__desc">
@@ -675,14 +675,14 @@
                     <div class="teacher__item">
                         <div class="teacher__info">
                             <div class="teacher__name">
-                                Fred Clarkson
+                                Grace Mwende
                             </div>
                             <div class="teacher__prof">
-                                Biology / Doctor
+                                Treasurer
                             </div>
                         </div> <!-- / .teacher__info -->
                         <div class="teacher__img">
-                            <img src="assets/img/teacher_5.jpg" class="img-responsive" alt="...">
+                            <img src="assets/img/grace.png" class="img-responsive" alt="...">
                         </div>
                         <div class="teacher_item__overlay">
                             <p class="overlay__desc">
@@ -702,14 +702,14 @@
                     <div class="teacher__item">
                         <div class="teacher__info">
                             <div class="teacher__name">
-                                Steaven Martins
+                                Ogla Biwott
                             </div>
                             <div class="teacher__prof">
-                                Ecology / Professor
+                                Secretary
                             </div>
                         </div> <!-- / .teacher__info -->
                         <div class="teacher__img">
-                            <img src="assets/img/teacher_6.jpg" class="img-responsive" alt="...">
+                            <img src="assets/img/ogla.jpeg" class="img-responsive" alt="...">
                         </div>
                         <div class="teacher_item__overlay">
                             <p class="overlay__desc">
@@ -729,14 +729,14 @@
                     <div class="teacher__item">
                         <div class="teacher__info">
                             <div class="teacher__name">
-                                Rachel Adams
+                                James Muriithi
                             </div>
                             <div class="teacher__prof">
-                                Chemistry / Assistant
+                                Website Administrator 
                             </div>
                         </div> <!-- / .teacher__info -->
                         <div class="teacher__img">
-                            <img src="assets/img/teacher_7.jpg" class="img-responsive" alt="...">
+                            <img src="assets/img/james.jpg" class="img-responsive" alt="...">
                         </div>
                         <div class="teacher_item__overlay">
                             <p class="overlay__desc">
@@ -782,203 +782,14 @@
             </div> <!-- / .row -->
         </div> <!-- / .container -->
     </section> <!-- .section__footer -->
-    <!-- section features -->
-    <section class="section__features">
-        <div class="left__box">
-            <h2 class="features__title">
-                <i class="ion-university"></i> Learn
-            </h2>
-            <p class="features__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius doloremque consequuntur eligendi eum perspiciatis pariatur, explicabo, libero assumenda labore quae soluta ab voluptate quidem magni hic vel, voluptas beatae eos iure quia ipsam officiis numquam. Soluta perferendis, fuga vitae consequatur, reiciendis unde ab, ipsa veritatis aspernatur eligendi, incidunt quasi sapiente!</p>
-            <p class="features__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quas, molestiae cupiditate. Tenetur mollitia, quas reprehenderit. Modi consectetur, eaque explicabo alias corrupti, unde, eveniet atque temporibus, sapiente libero animinec.</p>
-            <a href="#" class="btn btn-accent">Plan a course</a>
-        </div>
-        <div class="right__box">
-            <h2 class="features__title">
-                Work <i class="ion-ribbon-b"></i>
-            </h2>
-            <p class="features__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius doloremque consequuntur eligendi eum perspiciatis pariatur, explicabo, libero assumenda labore quae soluta ab voluptate quidem magni hic vel, voluptas beatae eos iure quia ipsam officiis numquam. Soluta perferendis, fuga vitae consequatur, reiciendis unde ab, ipsa veritatis aspernatur eligendi, incidunt quasi sapiente!</p>
-            <p class="features__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta natus soluta vitae, porro ratione expedita facere aliquid recusandae dolorem quae, qui veniam voluptas earum ipsa blanditiis necessitatibus cumque eligendi suntecry.</p>
-            <a href="#" class="btn btn-primary">Plan a practice</a>
-        </div>
-    </section> <!-- .section__footer -->
-    <!-- section process -->
-    <section class="section__process">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="section_title__body">
-                        <div class="section__subtitle dark__subtitle">
-                            Easy steps to <span>learning</span>
-                        </div>
-                        <h2 class="section__title dark__title">
-                            Study process
-                        </h2>
-                        <p class="section_title__desc">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores a atque, esse delectus. Vel quas voluptate atque natus laboriosam, vero molestiae repudiandae eaque veniam repellendus nemo unde suscipit ducimus tenetur.
-                        </p> <!-- / .about__desc -->
-                    </div> <!-- / .section_title__body  -->
-                </div>
-            </div> <!-- / .row -->
-            <div class="row">
-                <div class="col-sm-7">
-                    <div class="process__item process__item-1">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <div class="process_item__icon">
-                                    <i class="ion-log-in"></i>
-                                </div>
-                            </div>
-                            <div class="col-sm-9">
-                                <div class="process_item__title" data-aos="zoom-in-up">
-                                    Register in LCTRS<span>.</span>
-                                </div>
-                                <div class="process_item__desc">
-                                    Rerum perspiciatis iste quidem, expedita dolorem commodi provident vitae doloremque enim odit nisi recusan.
-                                </div>
-                            </div>
-                        </div> <!-- / .row -->
-                    </div> <!-- / .process__item -->
-                </div>
-                <div class="col-sm-5 hidden-xs">
-                    <div class="process_item__arrow-1">
-                        <i class="ion-ios-redo-outline"></i>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-            <div class="row">
-                <div class="col-sm-6 hidden-xs">
-                    <div class="process_item__arrow-2">
-                        <i class="ion-ios-undo-outline"></i>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="process__item process__item-2">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <div class="process_item__icon">
-                                    <i class="ion-images"></i>
-                                </div>
-                            </div>
-                            <div class="col-sm-9">
-                                <div class="process_item__title" data-aos="zoom-in-up">
-                                    Select liked course
-                                </div>
-                                <div class="process_item__desc">
-                                    Rerum perspiciatis iste quidem, expedita dolorem commodi provident vitae dolorem.
-                                </div>
-                            </div>
-                        </div> <!-- / .row -->
-                    </div> <!-- / .process__item -->
-                </div>
-            </div> <!-- / .row -->
-            <div class="row">
-                <div class="col-sm-7">
-                    <div class="process__item process__item-3">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <div class="process_item__icon">
-                                    <i class="ion-happy-outline"></i>
-                                </div>
-                            </div>
-                            <div class="col-sm-9">
-                                <div class="process_item__title" data-aos="zoom-in-up">
-                                    Enjoy the practice
-                                </div>
-                                <div class="process_item__desc">
-                                    Rerum perspiciatis iste quidem, expedita dolorem commodi provident vitae doloremque enim odit nisi recusan.
-                                </div>
-                            </div>
-                        </div> <!-- / .row -->
-                    </div> <!-- / .process__item -->
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </section>
-    <!-- section pricing -->
-    <section class="section__pricing">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="section__subtitle dark__subtitle">
-                        Description of course <span>options</span>
-                    </div>
-                    <h2 class="section__title dark__title">
-                        Price & Plans
-                    </h2>
-                </div>
-            </div> <!-- / .row -->
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="price__item price__item-1">
-                        <p class="card__nbr">01.</p>
-                        <div class="price_item__title">
-                            Beginner
-                        </div>
-                        <ul class="price_item__features">
-                            <li class="feature__include"><i class="ion-checkmark-round"></i> Trial course</li>
-                            <li class="feature__include"><i class="ion-checkmark-round"></i> Free registration</li>
-                            <li class="feature__include"><i class="ion-checkmark-round"></i> Sertificate</li>
-                            <li class="feature__none"><i class="ion-close-round"></i> Conferences</li>
-                            <li class="feature__none"><i class="ion-close-round"></i> Offline access</li>
-                            <li class="feature__none"><i class="ion-close-round"></i> Support teachers</li>
-                        </ul>
-                        <div class="price_item__price">
-                            0$<span> / mo</span>
-                        </div>
-                        <a href="#" class="btn btn-primary">Choose plan</a>
-                    </div> <!-- / .price__item -->
-                </div>
-                <div class="col-sm-4">
-                    <div class="price__item price__item-2">
-                        <p class="card__nbr">02.</p>
-                        <div class="price_item__title">
-                            Bachelor
-                        </div>
-                        <ul class="price_item__features">
-                            <li class="feature__include"><i class="ion-checkmark-round"></i> Trial course</li>
-                            <li class="feature__include"><i class="ion-checkmark-round"></i> Free registration</li>
-                            <li class="feature__include"><i class="ion-checkmark-round"></i> Sertificate</li>
-                            <li class="feature__include"><i class="ion-checkmark-round"></i> Conferences</li>
-                            <li class="feature__none"><i class="ion-close-round"></i> Offline access</li>
-                            <li class="feature__none"><i class="ion-close-round"></i> Support teachers</li>
-                        </ul>
-                        <div class="price_item__price">
-                            230$<span> / mo</span>
-                        </div>
-                        <a href="#" class="btn btn-primary">Choose plan</a>
-                    </div> <!-- / .price__item -->
-                </div>
-                <div class="col-sm-4">
-                    <div class="price__item price__item-3">
-                        <p class="card__nbr">03.</p>
-                        <div class="price_item__title">
-                            Master
-                        </div>
-                        <ul class="price_item__features">
-                            <li class="feature__include"><i class="ion-checkmark-round"></i> Trial course</li>
-                            <li class="feature__include"><i class="ion-checkmark-round"></i> Free registration</li>
-                            <li class="feature__include"><i class="ion-checkmark-round"></i> Sertificate</li>
-                            <li class="feature__include"><i class="ion-checkmark-round"></i> Conferences</li>
-                            <li class="feature__include"><i class="ion-checkmark-round"></i> Offline access</li>
-                            <li class="feature__include"><i class="ion-checkmark-round"></i> Support teachers</li>
-                        </ul>
-                        <div class="price_item__price">
-                            350$<span> / mo</span>
-                        </div>
-                        <a href="#" class="btn btn-primary">Choose plan</a>
-                    </div> <!-- / .price__item -->
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </section> <!-- .section__footer -->
     <!-- section coming-soon -->
-    <section class="section__coming-soon">
+    <section class="section__coming-soon" id="section_events">
         <div class="container">
             <div class="row">
                 <div class="col-md-7 col-lg-6">
                     <div id="clock"></div> <!-- / #clock -->
                     <div class="coming-soon__text">
-                        <h2 class="coming-soon__title">Free conference <span>2017</span></h2>
+                        <h2 class="coming-soon__title">Clinic Day <span>2019</span></h2>
                         <p class="coming-soon__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur omnis nam consequatur, illum aliquid optio quidem nemo necessitatibus velit! Laboriosam porro amet iste, quisquam deserunt optio consequatur itaque numquam provident.</p>
                         <p class="coming-soon__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ea, omnis voluptates, vero ab alias harum totam animi corporis excepturi in, facere mollitia quasi nihil illo placeat? Optio, corrupti quis.</p>
                     </div>
@@ -988,157 +799,20 @@
                         <img src="assets/img/coming-soon_img.jpg" class="img-responsive" alt="...">
                     </div>
                     <div class="coming-soon__btn text-center">
-                        <a href="event-single.html" class="btn btn-primary">Register now</a>
+                        <a href="#" class="btn btn-primary">Register now</a>
                     </div>
                 </div>
             </div> <!-- / .row -->
         </div> <!-- / .container -->
     </section> <!-- .section__footer -->
-    <!-- section blog -->
-    <section class="section__blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="section_title__body">
-                        <div class="section__subtitle dark__subtitle">
-                            All useful <span>news</span> & <span>events</span>
-                        </div>
-                        <h2 class="section__title dark__title">
-                            Our blog
-                        </h2>
-                        <p class="section_title__desc">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores a atque, esse delectus. Vel quas voluptate atque natus laboriosam, vero molestiae repudiandae eaque veniam repellendus nemo unde suscipit ducimus tenetur.
-                        </p> <!-- / .about__desc -->
-                    </div> <!-- / .section_title__body  -->
-                </div>
-            </div> <!-- / .row -->
-            <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <div class="blog__item">
-                        <div class="blog-item__img">
-                            <img src="assets/img/blog_img-1.jpg" class="img-responsive" alt="...">
-                        </div>
-                        <div class="blog-item__tags">
-                            <i class="ion-ios-pricetags" aria-hidden="true"></i> <a href="#">#study</a> <a href="#">#LCTRS</a> <a href="#">#conference</a>
-                        </div>
-                        <div class="blog-item__content">
-                            <div class="blog-item__date">
-                                <i class="ion-calendar" aria-hidden="true"></i> 09 October 2017
-                            </div>
-                            <div class="blog-item__title">
-                                <h3>New courses realised</h3>
-                            </div>
-                            <div class="blog-item__info">
-                                <ul class="item-info__list">
-                                    <li class="info-list__item"><i class="ion-android-person" aria-hidden="true"></i> by John Doe</li>
-                                    <li class="info-list__item"><i class="ion-android-chat" aria-hidden="true"></i> 36</li>
-                                    <li class="info-list__item"><i class="ion-heart" aria-hidden="true"></i> 246</li>
-                                </ul>
-                            </div>
-                            <div class="blog-item__text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eius dicta, magni, placeat sed excepturi tenetur. Unde esse repellendus saepe ipsa odio in laborum voluptas. Obcaecati quae.
-                            </div>
-                            <div class="blog-item__link">
-                                <a href="#">Read More <i class="ion-android-arrow-forward" aria-hidden="true"></i></a>
-                            </div>
-                            <ul class="blog-item__share">
-                                <li>Share: </li>
-                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                            </ul>
-                        </div> <!-- / .blog-item__content -->
-                    </div> <!-- / .blog__item -->
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="blog__item">
-                        <div class="blog-item__img">
-                            <img src="assets/img/blog_img-2.jpg" class="img-responsive" alt="...">
-                        </div>
-                        <div class="blog-item__tags">
-                            <i class="ion-ios-pricetags" aria-hidden="true"></i> <a href="#">#study</a> <a href="#">#LCTRS</a> <a href="#">#conference</a>
-                        </div>
-                        <div class="blog-item__content">
-                            <div class="blog-item__date">
-                                <i class="ion-calendar" aria-hidden="true"></i> 15 October 2017
-                            </div>
-                            <div class="blog-item__title">
-                                <h3>LCTRS conference 2017</h3>
-                            </div>
-                            <div class="blog-item__info">
-                                <ul class="item-info__list">
-                                    <li class="info-list__item"><i class="ion-android-person" aria-hidden="true"></i> by John Doe</li>
-                                    <li class="info-list__item"><i class="ion-android-chat" aria-hidden="true"></i> 85</li>
-                                    <li class="info-list__item"><i class="ion-heart" aria-hidden="true"></i> 125</li>
-                                </ul>
-                            </div>
-                            <div class="blog-item__text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eius dicta, magni, placeat sed excepturi tenetur. Unde esse repellendus saepe ipsa odio in laborum voluptas. Obcaecati quae.
-                            </div>
-                            <div class="blog-item__link">
-                                <a href="#">Read More <i class="ion-android-arrow-forward" aria-hidden="true"></i></a>
-                            </div>
-                            <ul class="blog-item__share">
-                                <li>Share: </li>
-                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                            </ul>
-                        </div> <!-- / .blog-item__content -->
-                    </div> <!-- / .blog__item -->
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="blog__item">
-                        <div class="blog-item__img">
-                            <img src="assets/img/blog_img-3.jpg" class="img-responsive" alt="...">
-                        </div>
-                        <div class="blog-item__tags">
-                            <i class="ion-ios-pricetags" aria-hidden="true"></i> <a href="#">#learn</a> <a href="#">#design</a> <a href="#">#courses</a>
-                        </div>
-                        <div class="blog-item__content">
-                            <div class="blog-item__date">
-                                <i class="ion-calendar" aria-hidden="true"></i> 03 November 2017
-                            </div>
-                            <div class="blog-item__title">
-                                <h3>Obtaining certificates</h3>
-                            </div>
-                            <div class="blog-item__info">
-                                <ul class="item-info__list">
-                                    <li class="info-list__item"><i class="ion-android-person" aria-hidden="true"></i> by John Doe</li>
-                                    <li class="info-list__item"><i class="ion-android-chat" aria-hidden="true"></i> 133</li>
-                                    <li class="info-list__item"><i class="ion-heart" aria-hidden="true"></i> 591</li>
-                                </ul>
-                            </div>
-                            <div class="blog-item__text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eius dicta, magni, placeat sed excepturi tenetur. Unde esse repellendus saepe ipsa odio in laborum voluptas. Obcaecati quae.
-                            </div>
-                            <div class="blog-item__link">
-                                <a href="#">Read More <i class="ion-android-arrow-forward" aria-hidden="true"></i></a>
-                            </div>
-                            <ul class="blog-item__share">
-                                <li>Share: </li>
-                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                            </ul>
-                        </div> <!-- / .blog-item__content -->
-                    </div> <!-- / .blog__item -->
-                </div>
-                <div class="col-xs-12">
-                    <div class="text-center">
-                        <a href="blog-right-sidebar.html" class="btn btn-accent">See all posts</a>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </section> <!-- .section__footer -->
+
     <!-- section testimonials -->
-    <section class="section__testimonials">
+    <section class="section__testimonials" id="section__testimonials">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section__subtitle light__subtitle">
-                        Our students about <span>lctrs.</span>
+                        Our students about <span>PUCSA.</span>
                     </div>
                     <h2 class="section__title light__title">
                         Testimonials
@@ -1156,24 +830,24 @@
                     <div id="testimonials__carousel" class="owl-carousel owl-theme">
                         <div class="testimonials__item">
                             <div class="testimonials_item__title">
-                                <span>LCTRS</span> is the best choice for learning!
+                                <span>PUCSA</span> is the best choice for learning!
                             </div>
                             <div class="testimonials_item__text">
                                 A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
                             </div>
                             <div class="testimonials_item__author">
-                                <span>Andrew Black</span> - Bachelor
+                                <span>Dr. Kiti</span> - Dean
                             </div>
                         </div> <!-- / .testimonials__item -->
                         <div class="testimonials__item">
                             <div class="testimonials_item__title">
-                                <span>LCTRS</span> is wonderful place for everyone.
+                                <span>PUCSA</span> is wonderful place for everyone.
                             </div>
                             <div class="testimonials_item__text">
                                 A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
                             </div>
                             <div class="testimonials_item__author">
-                                <span>Mellisa Doe</span> - Ph.D
+                                <span>Peter Arnold</span> - Patron
                             </div>
                         </div> <!-- / .testimonials__item -->
                         <div class="testimonials__item">
@@ -1189,7 +863,7 @@
                         </div> <!-- / .testimonials__item -->
                         <div class="testimonials__item">
                             <div class="testimonials_item__title">
-                                In <span>LCTRS</span> I found the best courses.
+                                In <span>PUCSA</span> I found the best courses.
                             </div>
                             <div class="testimonials_item__text">
                                 A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing.
@@ -1203,239 +877,29 @@
             </div> <!-- / .row -->
         </div> <!-- / .container -->
     </section> <!-- .section__footer -->
-    <!-- section partners -->
-    <section class="section__partners">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="partner__img">
-                        <img src="assets/img/logo_1.png" class="img-responsive" alt="...">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="partner__img">
-                        <img src="assets/img/logo_2.png" class="img-responsive" alt="...">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="partner__img">
-                        <img src="assets/img/logo_3.png" class="img-responsive" alt="...">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="partner__img">
-                        <img src="assets/img/logo_4.png" class="img-responsive" alt="...">
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-            <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="partner__img">
-                        <img src="assets/img/logo_5.png" class="img-responsive" alt="...">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="partner__img">
-                        <img src="assets/img/logo_6.png" class="img-responsive" alt="...">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="partner__img">
-                        <img src="assets/img/logo_7.png" class="img-responsive" alt="...">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <div class="partner__img">
-                        <img src="assets/img/logo_1.png" class="img-responsive" alt="...">
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </section> <!-- .section__footer -->
-    <!-- section contact -->
-    <section class="section__contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="section_title__body">
-                        <div class="section__subtitle dark__subtitle">
-                            Information & our <span>location</span>
-                        </div>
-                        <h2 class="section__title dark__title">
-                            Contacts
-                        </h2>
-                        <p class="section_title__desc">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores a atque, esse delectus. Vel quas voluptate atque natus laboriosam, vero molestiae repudiandae eaque veniam repellendus nemo unde suscipit ducimus tenetur.
-                        </p> <!-- / .about__desc -->
-                    </div> <!-- / .section_title__body  -->
-                </div>
-            </div> <!-- / .row -->
-            <div id="map"></div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <!-- Alert message -->
-                    <div class="alert" id="form_message" role="alert"></div>
-                    <!-- Form -->
-                    <form id="form_sendemail">
-                        <!-- Email -->
-                        <div class="form-group">
-                            <label for="email" class="sr-only">Email address</label>
-                            <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email address">
-                            <span class="help-block"></span>
-                        </div>
-                        <!-- Name -->
-                        <div class="form-group">
-                            <label for="name" class="sr-only">Name</label>
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Enter your name">
-                            <span class="help-block"></span>
-                        </div>
-                        <!-- Message -->
-                        <div class="form-group">
-                            <label for="message" class="sr-only">Message</label>
-                            <textarea name="message" class="form-control" id="message" rows="6" placeholder="Enter your message"></textarea>
-                            <span class="help-block"></span>
-                        </div>
-                        <!-- Note -->
-                        <div class="form-group">
-                            <small class="text-muted">
-                                * All fields are mandatory.
-                            </small>
-                        </div>
-                        <!-- Submit -->
-                        <button type="submit" class="btn btn-block btn-accent">
-                            Send Message
-                        </button>
-                    </form>
-                </div>
-                <div class="col-sm-6">
-                    <div class="contact_info__body">
-                        <div class="contact_info__item">
-                            <div class="contact__title">
-                                Write us<span>.</span>
-                            </div>
-                            <div class="contact__info">
-                                <div class="contact_info__wrapper">
-                                    <h3>Head office</h3>
-                                    <p>hello@lctrs.com</p>
-                                </div>
-                                <div class="contact_info__wrapper">
-                                    <h3>Support</h3>
-                                    <p>support@lctrs.com</p>
-                                </div>
-                            </div> <!-- / .contact__info -->
-                        </div> <!-- / .contact_info__item -->
-                        <div class="contact_info__item">
-                            <div class="contact__title">
-                                Call us<span>.</span>
-                            </div>
-                            <div class="contact__info">
-                                <div class="contact_info__wrapper">
-                                    <h3>Head office</h3>
-                                    <p>+ 0242 456 45 45</p>
-                                </div>
-                                <div class="contact_info__wrapper">
-                                    <h3>Support</h3>
-                                    <p>+ 0242 789 98 98</p>
-                                </div>
-                            </div> <!-- / .contact__info -->
-                        </div> <!-- / .contact_info__item -->
-                        <div class="contact_info__item">
-                            <div class="contact__title">
-                                Visit us<span>.</span>
-                            </div>
-                            <div class="contact__info">
-                                <div class="contact_info__wrapper">
-                                    <h3>Head office</h3>
-                                    <p>78 Lorem St, New York, NY</p>
-                                </div>
-                            </div> <!-- / .contact__info -->
-                        </div> <!-- / .contact_info__item -->
-                    </div> <!-- / .contact_info__body -->
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </section> <!-- .section__footer -->
-    <!-- section instagram -->
-    <section class="section__instagram">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="section__subtitle instagram__title">
-                        Follow <a href="#">@LCTRS.</a> in Instagram
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-            <div class="row">
-                <div class="col-xs-6 col-sm-2">
-                    <div class="intagram_img__body">
-                        <a href="#" class="insagram__img">
-                            <img src="assets/img/instagram_img-1.jpg" class="img-responsive" alt="...">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-2">
-                    <div class="intagram_img__body">
-                        <a href="#" class="insagram__img">
-                            <img src="assets/img/instagram_img-2.jpg" class="img-responsive" alt="...">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-2">
-                    <div class="intagram_img__body">
-                        <a href="#" class="insagram__img">
-                            <img src="assets/img/instagram_img-3.jpg" class="img-responsive" alt="...">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-2">
-                    <div class="intagram_img__body">
-                        <a href="#" class="insagram__img">
-                            <img src="assets/img/instagram_img-4.jpg" class="img-responsive" alt="...">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-2">
-                    <div class="intagram_img__body">
-                        <a href="#" class="insagram__img">
-                            <img src="assets/img/instagram_img-5.jpg" class="img-responsive" alt="...">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-2">
-                    <div class="intagram_img__body">
-                        <a href="#" class="insagram__img">
-                            <img src="assets/img/instagram_img-6.jpg" class="img-responsive" alt="...">
-                        </a>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </section> <!-- .section__footer -->
+
     <!-- section footer -->
-    <footer class="section__footer">
+    <footer class="section__footer" id="section__footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-4">
                     <div class="footer_title__body">
                         <h2 class="footer__title">
-                            LCTRS<span>.</span>
+                            <b style="display: inline-block!important;"><img src="assets/ico/footer-logo.png" class="m-r-5">PUCSA</b>
                         </h2>
-                        <div class="footer__subtitle">
-                            Education template
-                        </div>
-                        <ul class="footer__social">
+                        
+                        <ul class="footer__social m-l-64">
                             <li><a href="#"><i class="ion-social-twitter"></i></a></li>
                             <li><a href="#"><i class="ion-social-facebook"></i></a></li>
                             <li><a href="#"><i class="ion-social-youtube"></i></a></li>
-                            <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+                            <li><a href="mailto:pucsatech254@gmail.com"><i class="ion-ios-email fs-21"></i></a></li>
                         </ul>
                     </div> <!-- / .footer_title__body -->
                 </div>
                 <div class="col-md-3 col-sm-4">
                     <ul class="footer-links__list">
                         <li><a href="about.html"><i class="ion-ios-arrow-forward"></i> Site Map</a></li>
-                        <li><a href="courses.html"><i class="ion-ios-arrow-forward"></i> Terms & Conditions</a></li>
-                        <li><a href="blog.html"><i class="ion-ios-arrow-forward"></i> Privacy Policy</a></li>
+                        <li><a href="blog.html"><i class="ion-ios-arrow-forward"></i>Constitution</a></li>
                         <li><a href="contact.html"><i class="ion-ios-arrow-forward"></i> Help</a></li>
                     </ul>
                 </div>
@@ -1444,7 +908,7 @@
                         <p class="newsletter__subtitle">Subscribe to our newsletter to get news.</p>
                         <!-- Newsletter form -->
                         <div id="mc_embed_signup">
-                            <form class="footer__form validate" action="http://themeforest.us16.list-manage.com/subscribe/post-json?u=3c9679e26b601e1a87122b12f&amp;id=e4b9351526&amp;c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+                            <form class="footer__form validate" action="#" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
                                 <div id="mc_embed_signup_scroll">
                                     <div class="mc-field-group form-group">
                                         <label for="mce-EMAIL" class="sr-only">E-mail address</label>
@@ -1467,14 +931,6 @@
                             </form>
                         </div> <!-- #mc_embed_signup -->
                     </div> <!-- / .newsletter__body -->
-                    <div class="language__body">
-                        <ul class="language__menu">
-                            <li class="active"><a href="#">Eng</a></li>
-                            <li><a href="#">Ger</a></li>
-                            <li><a href="#">Spa</a></li>
-                            <li><a href="#">Fra</a></li>
-                        </ul> <!-- / .language__menu -->
-                    </div> <!-- / .language__body -->
                 </div>
             </div> <!-- / .row -->
         </div> <!-- / .container -->
@@ -1486,9 +942,9 @@
                 <div class="col-xs-12 col-sm-8 col-sm-push-4 col-md-6 col-md-push-6">
                     <ul class="quick__links">
                         <li>| <a href="index.html">Home</a> |</li>
+                        <li><a href="courses.html">Departments</a> |</li>
+                        <li><a href="blog-grid.html">Events</a> |</li>
                         <li><a href="about.html">About</a> |</li>
-                        <li><a href="courses.html">Courses</a> |</li>
-                        <li><a href="blog-grid.html">Blog</a> |</li>
                         <li><a href="contact.html">Contact</a> |</li>
                     </ul>
                 </div>

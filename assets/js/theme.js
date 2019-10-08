@@ -451,7 +451,7 @@ var countdown = (function() {
 
 	// Variables
 	var clock = $('#clock');
-	var toDate = '2019/10/09';
+	var toDate = '2019/10/24';
 
 	// Methods
 	function init() {
@@ -478,7 +478,7 @@ var countdown_alt = (function() {
 
 	// Variables
 	var clock = $('#event__timer');
-	var toDate = '2018/10/09';
+	var toDate = '2019/10/24';
 
 	// Methods
 	function init() {

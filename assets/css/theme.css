@@ -7443,6 +7443,10 @@ button.close {
 #index__page .section__teachers .teacher__item .teacher__img {
   position: relative;
 }
+#index__page .section__teachers .teacher__item .teacher__img img{
+  height: 325px;
+  width: 100%;
+}
 #index__page .section__teachers .teacher__item .teacher__img:before {
   content: "";
   position: absolute;
