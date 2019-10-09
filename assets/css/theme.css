@@ -8293,6 +8293,8 @@ button.close {
   letter-spacing: 0.05em;
   font-size: 16px;
 }
+
+
 #index__page .section__contact .contact_info__body .contact_info__item .contact__info .contact_info__wrapper > p {
   color: #a9a9a9;
   letter-spacing: 0.02em;
@@ -10540,9 +10542,11 @@ button.close {
   letter-spacing: 0.05em;
   font-size: 16px;
 }
-#contact__page .section__get-in-touch .contact_info__body .contact_info__item .contact__info .contact_info__wrapper > p {
-  color: #a9a9a9;
+#contact__page .section__get-in-touch .contact_info__body .contact_info__item .contact__info .contact_info__wrapper > a {
+  cursor: pointer;
   letter-spacing: 0.02em;
+  text-decoration: none!important;
+  color: #2F5BE7!important;
 }
 /**
  * Custom Styles for courses.html
